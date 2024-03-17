@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+        }
+        .menu {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to the Image Links Page!</h1>
+        </header>
+        
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to our website. Check out this cool agriculture image:</p>
+            <a href="https://www.farmersweekly.co.za/" target="_blank">
+                <img src="https://www.farmersweekly.co.za/wp-content/uploads/2018/08/Amid-vast-farms-we-have-forgotten-what-agriculture-looks-like.jpg" alt="Agriculture Image">
+            </a>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <a href="https://www.sciencedaily.com/" target="_blank">
+                    <img src="https://www.sciencedaily.com/images/2022/02/220210162839_1_900x600.jpg" alt="Technology Image 1">
+                </a>
+                <a href="https://www.sciencedaily.com/" target="_blank">
+                    <img src="https://www.sciencedaily.com/images/2022/02/220214134441_1_900x600.jpg" alt="Technology Image 2">
+                </a>
+                <a href="https://www.sciencedaily.com/" target="_blank">
+                    <img src="https://www.sciencedaily.com/images/2022/02/220228150916_1_900x600.jpg" alt="Technology Image 3">
+                </a>
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2>Menu</h2>
+            <ul class="menu">
+                <li><a href="https://www.forbes.com/leadership/" target="_blank">Leadership Development</a></li>
+                <li><a href="https://www.forbes.com/leadership/" target="_blank">Effective Communication</a></li>
+                <li><a href="https://www.forbes.com/leadership/" target="_blank">Team Building</a></li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
+
